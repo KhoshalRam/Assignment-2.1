@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class acad {
+public static void main(String args[])
+{
+StringBuffer Ob = new StringBuffer();
+	StringBuffer KL = new StringBuffer();
+	Scanner sc =new Scanner(System.in);
+  		int a = sc.nextInt();
+	  	int b =sc.nextInt();
+	for (int i = a; i <=b; i++) {
+		if(i%2==0)
+			{
+				Ob.append(i);
+				Ob.append(" ");
+			}
+			else
+			{
+			KL.append(i);
+			KL.append(" ");
+			}
+		}
+		System.out.println("The even number are");
+		System.out.println(Ob.toString());
+		System.out.println("The odd number are");
+		System.out.println(KL.toString());
+	}
+}
