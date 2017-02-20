@@ -1,29 +1,13 @@
-import java.util.Scanner;
-class Main{
-	public static void main(String []args){
-		Scanner sc= new Scanner(System.in);
-			int a,b;
-				System.out.println("Enter the first number");
-				a=sc.nextInt();
-				System.out.println("Enter the second number");
-				b=sc.nextInt();
-				System.out.print("The even numbers are :");
-				while(a<b){
-					a++;
-					if(a%2==0){
-					 System.out.print( a+" ");
-					}
-					}
-				a=0;
-				System.out.println();
-				System.out.print("The odd numbers are:");
-				while(a<b){
-					for(a=0; a<10; a++){
-					a++;
-					if(a%2!=0){
-						System.out.print(a+" ");
-					}}
-				}
-		
-	}
-}
+import java.util.*;   
+class Joe {
+	public static void main(String [] args){
+	int [] myarray={1,2,3,4,5,6,7,8,9,10};
+	Scanner sc=new Scanner(System.in);
+	int a;
+	System.out.println("Enter the number:");
+	a=sc.nextInt();
+	int index=0;
+			while(index<10){
+					System.out.println( a+"x" +myarray[index] +"=" +a*myarray[index]);
+					index++;
+			}}	}
