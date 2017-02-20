@@ -1,13 +1,16 @@
-import java.util.*;   
-class Joe {
-	public static void main(String [] args){
-	int [] myarray={1,2,3,4,5,6,7,8,9,10};
-	Scanner sc=new Scanner(System.in);
-	int a;
-	System.out.println("Enter the number:"); 
-	a=sc.nextInt();
-	int index=0;
-			while(index<10){
-					System.out.println( a+"x" +myarray[index] +"=" +a*myarray[index]);
-					index++;
-			}}	}
+import java.util.*;
+    class acad{
+    	public static int sum(int x, int y){
+    		int z=x+y;
+    		return z;
+    	}
+    	    	public static void main(String [] args){
+    	    	Scanner sc=new Scanner(System.in);
+    	  int x=sc.nextInt();
+    	  int y=sc.nextInt();
+    	  
+      System.out.println("First number is:"+x);
+      System.out.println("Second number is:"+y);
+      System.out.println("Sum is: "+sum(x,y));
+      }
+    }
