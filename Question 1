@@ -2,7 +2,7 @@ Assignment-2.1
 
 
 import java.util.*;
-    class Main{
+    class acad{
       public static void main(String [] args){
       int a,b,c;
       a =33;
