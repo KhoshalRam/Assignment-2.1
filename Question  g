@@ -1,0 +1,28 @@
+Yes, A method can be overloaded with the same return type. But there is a limitation
+in overloaded the method with the same return type where the argument list should be differenct.  
+
+Java is designed to have more methods in it. Method overloading is a technique used in java to have
+more than one method in a program to perform multiple operations in a simplified manner without errors or complexity.
+
+
+The method overloading concept can be explained with the example given below:
+
+import java.util.*;
+public class Main {
+	public static void main(String[] args) {
+	Addition(133,002);				//method name
+	
+	Subtraction(234,134);			//method name
+	}
+	public static void Addition(int a,int b){
+		System.out.println("Addition Number: "+(a+b));			//operation
+		}
+	
+	public static void Subtraction(int a,int b){
+		System.out.println("Subtraction Number: "+(a-b));			//operation
+		}
+	
+	}
+
+If we look at this example, we can find that the value entered is of the integer datatype and the 
+return type is also of the same datatype. 
